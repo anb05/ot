@@ -33,7 +33,7 @@ signals:
 	void timeout();
 
 protected:
-	void paintEvent(QPaintEvent* event) override;
+	void paintEvent(QPaintEvent* /*event*/) override;
 	void mousePressEvent(QMouseEvent* event) override;
 
 private:
