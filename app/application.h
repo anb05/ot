@@ -7,6 +7,8 @@ namespace ot {
 
 class Application : public QApplication
 {
+Q_OBJECT
+
 public:
 	explicit Application(int& argc, char** argv);
 	~Application();
